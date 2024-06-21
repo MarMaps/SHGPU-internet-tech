@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+    <TITLE> Lab 3.3. [3] </TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="3.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    </style>
+</HEAD>
+
+<BODY>
+    <form class="form3" action="." method="POST" name="Form3">
+        <fieldset style="border:0px;">
+            <legend class="title">Покупка автомобиля</legend>
+            
+            <div>
+                <label class="text">Ваше имя и фамилия</label>
+                <input class="block" type="text">
+            </div>
+
+            <div>
+                <label class="text">Ваш возраст</label>
+                <input class="block" type="text">
+            </div>
+
+            <div>
+                <label class="text">Тип метсности</label>
+                <input class="block" type="text">
+            </div>
+
+            <div>
+                <label>Пол</label>
+                <input name="gender" type="radio" value="man" id="man">
+                <label for="man">Мужской</label>
+                <input name="gender" type="radio" value="woman" id="woman">
+                <label for="woman">Женский</label>
+            </div>
+
+            <div>
+                <label class="brand">Марка</label>
+                <select class="brand2" size="5" multiple name="mark">
+                    <option>Lada</option>
+                    <option>BMW</option>
+                    <option>KIA</option>
+                    <option>Chevrolet</option>
+                    <option>Audi</option>
+                    <option>Toyota</option>
+                    <option>Mersedes-Benz</option>
+                    <option>Nissan</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Ваши предпочтения (Тип кузова, привод, ценовая категория, год выпуска)</label>
+                <textarea cols="60" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button class="button">Отправляй в корзинку</button>
+                <button class="button" type="reset">Очисти...</button>
+            </div>
+
+            <div>
+                <img class="car" alt="gif" src="авто.gif">
+            </div>
+
+        </fieldset>
+    </form>
+</BODY>
+</HTML>

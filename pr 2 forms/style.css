@@ -1,0 +1,67 @@
+h1 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+form {
+    border: 1px solid;
+    width: 700px;
+    height: 250px;
+    padding: 20px;
+}
+
+.page {
+    display: flex;
+    font-family: arial;
+
+}
+
+.box1 {
+    margin-right: 50px;
+}
+
+.button {
+
+    display: flex;
+    justify-content: right;
+
+}
+
+.hobby {
+
+    display: flex;
+}
+
+.hobby label {
+    padding-right: 8px;
+}
+
+.input1 {
+    width: 258px;
+
+}
+
+.input2 {
+    width: 234px;
+
+}
+
+.cl {
+margin-left: 8px;
+}
+
+.mail {
+
+    width: 166px;
+
+}
+
+.head {
+    font-family: Arial;
+
+
+}
+
+textarea {
+    margin-bottom: 10px;
+}

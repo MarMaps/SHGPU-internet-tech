@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<head>
+    <TITLE> Lab 3.4.2 example</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+      .heads {
+        text-align: center;
+      }
+
+      .flex-container {
+        display: flex;
+      }
+
+      .box {
+        background: grey;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border: solid;
+      }
+
+      .column {
+        flex-direction: column;
+      }
+
+      .box1 {
+        background: grey;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        border: solid;
+      }
+
+      .flex1 {
+        justify-content: flex-start;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+      }
+
+      .box2 {
+        background: rgb(128, 15, 15);
+        width: 100px;
+        height: 100px;
+        border: solid;
+      }
+
+      .flex {
+        margin-bottom: 20px;
+      }
+
+      .flex2 {
+        justify-content: flex-end;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+      }
+
+      .box3 {
+        background: rgb(36, 194, 154);
+        width: 100px;
+        height: 100px;
+        border: solid;
+      }
+
+      .flex3 {
+        justify-content: center;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+      }
+
+      .box4 {
+        background: rgb(223, 231, 104);
+        width: 100px;
+        height: 100px;
+        border: solid;
+      }
+
+      .flex4 {
+        justify-content: space-between;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+      }
+
+      .box5 {
+        background: rgb(148, 104, 231);
+        width: 100px;
+        height: 100px;
+        border: solid;
+      }
+      .flex5 {
+        justify-content: space-around;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+      }
+
+      .box6 {
+        background: rgb(104, 195, 231);
+        width: 100px;
+        height: 100px;
+        border: solid;
+      }
+
+      .items1 {
+        align-items: flex-start;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 100px;
+      }
+
+      .box7 {
+        background: rgb(33, 91, 114);
+        width: 100px;
+        height: 40px;
+        border: solid;
+      }
+
+      .items2 {
+        align-items: flex-end;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 100px;
+      }
+
+      .box8 {
+        background: rgb(33, 114, 33);
+        width: 100px;
+        height: 40px;
+        border: solid;
+      }
+
+      .items3 {
+        align-items: center;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 100px;
+      }
+
+      .box9 {
+        background: rgb(114, 33, 71);
+        width: 100px;
+        height: 40px;
+        border: solid;
+      }
+
+      .content1 {
+        align-content: stretch;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 200px;
+        width: 400px;
+        flex-wrap: wrap;
+      }
+
+      .box10 {
+        background: rgb(139, 31, 172);
+        width: 100px;
+        border: solid;
+      }
+
+      .content2 {
+        align-content: flex-start;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 200px;
+        width: 400px;
+        flex-wrap: wrap;
+      }
+
+      .box11 {
+        background: rgb(75, 46, 83);
+        width: 100px;
+        height: 50px;
+        border: solid;
+      }
+
+      .content3 {
+        align-content: flex-end;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 200px;
+        width: 400px;
+        flex-wrap: wrap;
+      }
+
+      .box12 {
+        background: rgb(47, 46, 83);
+        width: 100px;
+        height: 50px;
+        border: solid;
+      }
+
+      .content4 {
+        align-content: center;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 200px;
+        width: 400px;
+        flex-wrap: wrap;
+      }
+
+      .box13 {
+        background: rgb(83, 46, 46);
+        width: 100px;
+        height: 50px;
+        border: solid;
+      }
+
+      .content5 {
+        align-content: space-around;
+        display: flex;
+        border: solid rgb(163, 161, 161);
+        height: 200px;
+        width: 400px;
+        flex-wrap: wrap;
+      }
+
+      .box14 {
+        background: rgb(85, 84, 128);
+        width: 100px;
+        height: 50px;
+        border: solid;
+      }
+
+            .flex-container {
+        display: flex;
+        width: 300px;
+        height: 150px;
+        align-items: center;
+        padding: 10px;
+        background-color: #efefef;
+      }
+      .flex-container_element-1,
+      .flex-container_element-2,
+      .flex-container_element-3,
+      .flex-container_element-4 {
+        flex-basis: 70px;
+        text-align: center;
+        padding: 15px;
+        font-size: 30px;
+      }
+      .flex-container_element-1 {
+        align-self: flex-start;
+        background: #fe4;
+      }
+      .flex-container_element-2 {
+        align-self: flex-end;
+        background: pink;
+      }
+      .flex-container_element-3 {
+        align-self: stretch;
+        background: lime;
+      }
+      .flex-container_element-4 {
+        align-self: auto;
+        background: cyan;
+      }
+      </style>
+</head>
+<body>
+  <h2 class="heads">Основы CSS Flexbox</h2>
+  <div class="flex-container">
+    <div class="box">flex-элемент #1</div>
+    <div class="box">flex-элемент #2</div>
+    <div class="box">flex-элемент #3</div>
+  </div>
+
+  <div class="column">
+    <div class="box1">flex-элемент #1</div>
+    <div class="box1">flex-элемент #2</div>
+    <div class="box1">flex-элемент #3</div>
+  </div>
+
+  <h2 class="heads">Выравнивание flex-элементов по направлению главной оси</h2>
+  <div class="flex1 flex">
+    <div class="box2">#1</div>
+    <div class="box2">#2</div>
+    <div class="box2">#3</div>
+    <div class="box2">#4</div>
+    <div class="box2">#5</div>
+  </div>
+
+  <div class="flex2 flex">
+    <div class="box3">#1</div>
+    <div class="box3">#2</div>
+    <div class="box3">#3</div>
+    <div class="box3">#4</div>
+    <div class="box3">#5</div>
+  </div>
+
+  <div class="flex3 flex">
+    <div class="box4">#1</div>
+    <div class="box4">#2</div>
+    <div class="box4">#3</div>
+    <div class="box4">#4</div>
+    <div class="box4">#5</div>
+  </div>
+
+  <div class="flex4 flex">
+    <div class="box5">#1</div>
+    <div class="box5">#2</div>
+    <div class="box5">#3</div>
+    <div class="box5">#4</div>
+    <div class="box5">#5</div>
+  </div>
+
+  <div class="flex5 flex">
+    <div class="box6">#1</div>
+    <div class="box6">#2</div>
+    <div class="box6">#3</div>
+    <div class="box6">#4</div>
+    <div class="box6">#5</div>
+  </div>
+
+  <h2 class="heads">Выравнивание flex-элементов вдоль поперечной оси</h2>
+  <div class="items1 flex">
+    <div class="box7">#1</div>
+    <div class="box7">#2</div> 
+    <div class="box7">#3</div> 
+    <div class="box7">#4</div> 
+    <div class="box7">#5</div>  
+  </div>
+  
+  <div class="items2 flex">
+    <div class="box8">#1</div>
+    <div class="box8">#2</div> 
+    <div class="box8">#3</div> 
+    <div class="box8">#4</div> 
+    <div class="box8">#5</div>  
+  </div>
+
+  <div class="items3 flex">
+    <div class="box9">#1</div>
+    <div class="box9">#2</div> 
+    <div class="box9">#3</div> 
+    <div class="box9">#4</div> 
+    <div class="box9">#5</div>  
+  </div>
+
+  <h2 class="heads">Выравнивание линий flex-контейнера</h2>
+  <div class="content1 flex">
+    <div class="box10">#1</div>
+    <div class="box10">#2</div> 
+    <div class="box10">#3</div> 
+    <div class="box10">#4</div> 
+    <div class="box10">#5</div>  
+  </div>
+
+  <div class="content2 flex">
+    <div class="box11">#1</div>
+    <div class="box11">#2</div> 
+    <div class="box11">#3</div> 
+    <div class="box11">#4</div> 
+    <div class="box11">#5</div>  
+  </div>
+
+  <div class="content3 flex">
+    <div class="box12">#1</div>
+    <div class="box12">#2</div> 
+    <div class="box12">#3</div> 
+    <div class="box12">#4</div> 
+    <div class="box12">#5</div>  
+  </div>
+
+  <div class="content4 flex">
+    <div class="box13">#1</div>
+    <div class="box13">#2</div> 
+    <div class="box13">#3</div> 
+    <div class="box13">#4</div> 
+    <div class="box13">#5</div>  
+  </div>
+
+  <div class="content5 flex">
+    <div class="box14">#1</div>
+    <div class="box14">#2</div> 
+    <div class="box14">#3</div> 
+    <div class="box14">#4</div> 
+    <div class="box14">#5</div>  
+  </div>
+
+  <div class="flex-container">
+    <div class="flex-container_element-1">
+      1
+    </div>
+    <div class="flex-container_element-2">
+      2
+    </div>
+    <div class="flex-container_element-3">
+      3
+    </div>
+    <div class="flex-container_element-4">
+      4
+    </div>
+  </div>
+
+  
+</body>
+</HTML>

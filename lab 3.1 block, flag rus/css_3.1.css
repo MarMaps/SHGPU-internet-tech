@@ -1,0 +1,58 @@
+.Obj1 {
+	width: 400px;
+	height: 130px;
+	position: absolute;
+	background: red;
+	border: 1px solid #000;
+}
+
+.Obj2 {
+	width: 400px;
+	height: 130px;
+	top: 225px;
+	left: 475px;
+	position: absolute;
+	background: yellow;
+	border: 1px solid #000;
+	margin: 1em 0;
+}
+
+.Obj3 {
+	width: 400px;
+	height: 130px;
+	top: 470px;
+	left: 940px;
+	position: absolute;
+	background: #2DAD01;
+	border: 1px solid #000;
+}
+
+.F1 {
+	width: 300px;
+	height: 60px;
+	top: 670px;
+	left: 80px;
+	position: absolute;
+	background: white;
+	border: 1px solid #000;
+}
+
+.F2 {
+	width: 300px;
+	height: 60px;
+	top: 730px;
+	left: 80px;
+	position: absolute;
+	background: blue;
+	border: 1px solid #000;
+}
+
+.F3 {
+	width: 300px;
+	height: 60px;
+	top: 790px;
+	left: 80px;
+	position: absolute;
+	background: red;
+	border: 1px solid #000;
+}

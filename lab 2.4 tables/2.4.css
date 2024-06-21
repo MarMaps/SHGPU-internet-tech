@@ -1,0 +1,81 @@
+.tab1 {
+	background: #FFED94;
+	width: 500px; 
+	font-family:Arial;
+	background: linear-gradient(to left, #FAE762, #FAF4C3);
+}
+.td1 {
+	text-align: center;
+	padding: 3px; 
+    border: 1px solid #FFD700;	
+}
+
+.td11 {
+	font-size: 130%;
+	text-align: center;
+	padding: 3px; 
+    border: 1px solid #FFD700;
+}
+
+.tab2 {
+	width: 600px;
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+}
+
+.tr21 {
+	background: linear-gradient(to bottom, #E0FFFF 1%, white );
+	border-bottom: solid #2F18FF;
+	color: #15428c;
+	text-align: center;
+}
+
+.D {
+	color: #15428c;
+	background: linear-gradient(to left, #E9E7FE, #B8D2FF);
+	border: 2px solid #A9A9A9;
+}
+
+.D1 {
+	color: #616161;
+	background-color: #E3E3E3;
+	border: 2px solid #A9A9A9;
+	text-align: center;
+}
+
+.S {
+	border: 2px solid #A9A9A9;
+	background: linear-gradient(to bottom, #E9E7FE, #9C9CA0);
+	font-weight: bold;
+}
+
+.S1 {
+	border: 2px solid #A9A9A9;
+	background: linear-gradient(to bottom, #E9E7FE, #9C9CA0);
+	font-weight: bold;
+	text-align: center;
+}
+
+.tab3 { 
+	font-family: Arial;
+	text-align: center;
+	border-collapse:collapse;
+}
+
+.R1 {
+	height: 40%;
+}
+
+.R2 {
+	border: 1px solid #595959;		
+}
+
+.tab4 {
+	
+width: 500px; 
+}
+
+.T4 {
+	height:5px; 
+	weight:30px;
+}

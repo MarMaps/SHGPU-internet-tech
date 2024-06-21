@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>проверочная 2</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form action=".">
+        <h1 class="head">Форма регистрации</h1>
+        
+        <div class="page">
+            <div class="box1">
+                <div>
+                    <label for="name">Имя</label>
+                    <input class="input1" type="text" name="name" id="name">
+                </div>
+    
+                <div>
+                    <label for="mail">Адрес эл. почты</label>
+                    <input class="mail" type="text" id="mail">
+                </div>
+    
+                <div>
+                    <label for="password">Пароль</label>
+                    <input class="input2" type="password" id="password">
+                </div>
+    
+                <div>
+                    <label>Пол</label>
+                    <input name="gender" type="radio" value="man" id="man">
+                    <label for="man">Мужской</label>
+                    <input name="gender" type="radio" value="woman" id="woman">
+                    <label for="woman">Женский</label>
+                </div>
+                
+                <div class="hobby">
+                    <label>Увлечения</label>
+                    <select size="6" multiple name="hobby">
+                        <option selected value="comp">компьютеры</option>
+                        <option value="sport">Спорт</option>
+                        <option value="game">Игры</option>
+                        <option value="animal">животные</option>
+                        <option value="club">клубы</option>
+                        <option value="music">музыка</option>
+                    </select>
+                </div>
+           </div>
+            
+    
+           <div class="box2">
+                <div>
+                    <h1>Пожелания</h1>
+                    <textarea rows="7" cols="40"> </textarea>
+                </div>
+    
+                <div class="button">
+                <button>Отправить</button>
+                <button class="cl">Очистить</button>
+                </div>
+           </div> 
+        </div>
+       
+    </form>
+</body>
+</html>

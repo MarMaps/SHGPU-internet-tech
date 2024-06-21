@@ -1,0 +1,72 @@
+.page {
+    background-color: rgb(6, 43, 68);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-right: 300px;
+}
+
+.nav-list-item {
+    color: white;
+    text-align: center;
+    border: solid cyan;
+    background-color: rgb(9, 21, 75);
+    margin: 5px;
+    padding: 7px;
+}
+
+.header {
+    height: 90svh;
+    background-image: url('../images/background_header.jpg');
+    min-height: 100dvh;
+    background-position: center;
+    background-size: cover;
+    border-bottom: solid black;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    padding-top: 40svh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.content {
+    background-color: white;
+    margin-top: 60px;
+    border-top: 8px double cyan;
+    border-bottom: 8px double cyan;
+}
+
+.list-item {
+   font-style: italic;
+   font-size: 24px;
+}
+
+.indent {
+    margin-top: 200px;
+}
+
+.author {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.manager {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}

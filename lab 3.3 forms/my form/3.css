@@ -1,0 +1,56 @@
+.form3 {
+	font-family: Courier New;
+	display: block;
+	background-color: rgba(222, 184, 135, 0.445);
+	border: 4px groove gold;
+	width: 710px;
+}
+
+.block {
+	margin-bottom: 10px;
+	border-color: chartreuse;
+}
+
+.text {
+	display: block;
+	margin-bottom: 5px;
+	color: crimson;
+}
+
+.brand {
+	width: 200px;
+}
+
+.brand2 {
+	background-color: rgb(162, 247, 162);
+	font-family: Courier New;
+	display: block;
+	width: 180px;
+}
+
+.button {
+	font-family: Courier New;
+	color: rgb(89, 0, 255);
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-color: rgb(43, 92, 226);
+	background-color: rgb(214, 171, 248);
+}
+
+.title {
+	font-size: 45px;
+	border: 6px ridge rgb(0, 255, 170);
+	background-color: rgb(198, 180, 214);
+}
+
+textarea {
+	resize: none;
+	border: 4px dotted skyblue;
+	display: block;
+}
+
+.car {
+	width: 250px;
+	margin-top: 10px;
+	float: right;
+}

@@ -1,0 +1,23 @@
+.page {
+    background-color: rgb(6, 43, 68);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    border-bottom: double cyan;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.to_main {
+    border: solid cyan;
+    padding: 10px;
+    height: 55px;
+    background-color: rgb(6, 43, 68);
+    color: white;
+    margin-top: 50px;
+}

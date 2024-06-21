@@ -1,0 +1,43 @@
+
+div {
+    display: flex;
+    font-family: arial;
+    margin-bottom: 10px;
+    font-size: 13px;
+
+}
+
+.f2 {
+    width: 700px;
+}
+
+.form-lb2 {
+    display: block;
+    width: 200px;
+}
+
+.form-input {
+    border: solid #7fb960;
+}
+
+.np {
+	
+	margin-left: 200px;
+}
+
+.butt {
+	border: solid #7fb960;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	width: 120px;
+	color: #7fb960;
+}
+
+.block2{
+	position: absolute;
+	top: 370px;
+	left: 430px;
+}
+
